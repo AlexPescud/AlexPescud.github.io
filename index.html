@@ -6,10 +6,15 @@
     <script type="text/javascript" src="d3.min.js"></script>
   </head>
   <body>
-    <svg width="960" height="600"></svg>
+    <!--<svg width="960" height="600"></svg>-->
     <script>
+      var width = "960"
+      var height = "600"
+
+      svg = d3.select(DOM.svg(width,height))
+      
       console.log("im in here")
-      const svg = d3.select("svg") 
+
 
       //Makes circles travel accross entire screen
       svg.append("rect")
