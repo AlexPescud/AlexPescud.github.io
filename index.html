@@ -8,13 +8,13 @@
   <body>
     <svg width="960" height="600"></svg>
     <script>
-
+      console.log("im in here")
       const svg = d3.select("svg") 
 
       function drawMap(err, Land){
         if (err) throw err
 
-        console.log("im in here")
+        
  
           //Makes circles travel accross entire screen
           svg.append("rect")
