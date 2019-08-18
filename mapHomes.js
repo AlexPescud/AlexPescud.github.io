@@ -18,3 +18,11 @@
         //.style("fill", "black");
 
     </script>
+
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8"/>
+  <head>
+    <title>Live Art Week UOW</title>
+    <script type="text/javascript" src="d3.min.js"></script>
+  </head>
