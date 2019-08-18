@@ -7,34 +7,25 @@
   </head>
   <body>
     <!--<svg width="960" height="600"></svg>-->
-    <script>
+    <h1>Hello</h1>
+  </body>
+  <script>
       var w = "960"
       var h = "600"
 
       svg = d3.select("body")
             .append("svg")
             .attr("width" = w)
-            .attr("height" = h)
+            .attr("height" = h);
 
-      console.log("im in here")
-
+      console.log("im in here");
 
       //Makes circles travel accross entire screen
       svg.append("rect")
         .attr("width", w)
         .attr("height", h)
         .attr("opacity", 0.5)
-        .style('fill', "black")
+        .style('fill', "black");
 
-      function drawMap(err, Land){
-        if (err) throw err
-      }
-
-
-      // read in coutry boundary data
-      //d3.json("data/Land.geojson", drawMap)
-    // Code will go here
     </script>
-    <h1>Hello</h1>
-  </body>
 </html>
