@@ -14,8 +14,6 @@
       function drawMap(err, Land){
         if (err) throw err
 
-        
- 
           //Makes circles travel accross entire screen
           svg.append("rect")
            .attr("width", width)
@@ -26,7 +24,7 @@
 
 
       // read in coutry boundary data
-      //d3.json('https://gist.githubusercontent.com/AlexPescud/acb36e1b34344535ade879686415c2c7/raw/b15559e2e01bc87bd906f47a7101da97bf37e053/Land', drawMap)
+      d3.json('https://gist.githubusercontent.com/AlexPescud/acb36e1b34344535ade879686415c2c7/raw/b15559e2e01bc87bd906f47a7101da97bf37e053/Land', drawMap)
     // Code will go here
     </script>
     <h1>Hello</h1>
