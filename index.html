@@ -1,31 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My first map in D3</title> 
-  </head>
-  <body>
-    <H1>Example</H1>
-    <script src="//d3js.org/d3.v4.min.js"></script>
-    <script>  
-      var w = "960"
-      var h = "600"
-
-      console.log("attempt to set up svg");
-
-      var svg = d3.select("body")
-            .append("svg")
-            .attr("width" = w)
-            .attr("height" = h);
-
-      //Makes circles travel accross entire screen
-      svg.append("rect")
-        .attr("width", w)
-        .attr("height", h)
-        .attr("opacity", 0.5)
-        .style("fill", "black");
-
-    </script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 ScatterPlot</title>
+</head>
+<body>
+    <div class="scatter-container"></div>
+    
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</body>
 </html>
