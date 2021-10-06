@@ -1,1 +1,353 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Awsome Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+    <!-- Custom CSS code -->
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+</head>
+
+<body style="background-color:  #FADA5E;">
+
+    <!--  Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FADA5E;">
+        <img src = "static/images/logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-size:1.5rem;">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#OurWork">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>        
+        </ul>
+        </div>
+    </nav>
+    <!--  Nav Bar End -->
+
+    <div class="container-fluid" style="background-color:  #FADA5E;">
+        <!-- Content here -->
+        <br>
+        <div class="row m-1" >
+            <div class="col-sm-6">
+              <div class="jumbotron" style="background-color:  #FADA5E;">
+              <h1 class="display-3">Professional Geospatial Services</h1>
+              <h3>We develop, adapt and deploy <a style="color:black;" href="#Services"><b>Geographic Information Systems (GIS)</b></a> to empower teams and create value for businesses and organisations.</h3>
+              <br>
+              <a href="#contact" type="button" class="btn btn-outline-dark  btn-lg">Get in touch</a>
+            </div>
+            </div>
+            <div class="col-md-6">
+              <div id="map"></div>
+            </div>
+        
+          </div>
+        
+        
+          <!-- What we offer start -->
+        <div id="Services">
+            <h1 class="display-4 m-4">Our Services</h1>
+        
+            <h3>
+              <b>AP Spatial</b> provides GIS services to government, business and universities across Australia. We work with a wide range of software to unlock the potential of your location data.
+            </h3>
+            <br>
+        
+          <div class="row m-1" >
+              <div class="col-sm-4">
+                <div class="card" style="background-color:  #FADA5E;">
+                  <div class="card-body">
+                    <h1><i class="fas fa-laptop-code d-flex justify-content-center"></i></h1>
+                    <h5 class="card-title text-center">Geospatial Automation</h5>
+                    <p class="card-text">We provide top class assistance to build or improve your mission critical geospatial systems. We create reliable automations to replace your repetitive tasks.</p>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item font-weight-bold"><a href="https://www.safe.com/partners/certification/wall-of-fame/" target="_blank">
+                        <img src="static/images/FME-Certified-Pro_RGB.png" class="img-thumbnail " style="width: 70px; height: 70px">
+                      </a> FME Certified Professional</li>
+                      <li class="list-group-item font-weight-bold">Optimisation</li>
+                      <li class="list-group-item font-weight-bold">Bespoke Plugin  Development</li>
+                      <li class="list-group-item font-weight-bold">Python Scripting</li>
+                      <li class="list-group-item font-weight-bold">Integrations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card" style="background-color:   #FADA5E;">
+                    <div class="card-body">
+                      <h1><i class="fas fa-layer-group d-flex justify-content-center"></i></h1>
+                      <h5 class="card-title text-center">Maps + Visualisations</h5>
+                      <p class="card-text">We provide value to your business by creating high quality deliverables from a variety of tools and platforms.</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item font-weight-bold">Desktop GIS (Open Source + Proprietry)</li>
+                        <li class="list-group-item font-weight-bold">Web/mobile App Development</li>
+                        <li class="list-group-item font-weight-bold">Cartographic Design</li>
+                        <li class="list-group-item font-weight-bold">Data Visualisation</li>
+                        <li class="list-group-item font-weight-bold">Data Analysis</li>
+                        <li class="list-group-item font-weight-bold">Big Data Mining</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="background-color:   #FADA5E;">
+                      <div class="card-body">
+                        <h1><i class="fas fa-chalkboard-teacher d-flex justify-content-center"></i></h1>
+                        <h5 class="card-title text-center">Learning/Consultancy</h5>
+                        <p class="card-text">We offer a range of services to upskill your team, stay relevant and knowledgeable within the industry.</p>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item font-weight-bold">Bespoke training packages</li>
+                          <li class="list-group-item font-weight-bold">Proprietary Software upskill</li>
+                          <li class="list-group-item font-weight-bold">Open Source Software upskill</li>
+                          <li class="list-group-item font-weight-bold">ETL tools upskill e.g. FME</li>
+                          <li class="list-group-item font-weight-bold">Coding skills</li>
+                          <li class="list-group-item font-weight-bold">Geospatial Architecture Reviews</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        
+            <!-- What we offer End -->
+        
+              <!--<div class="row">
+                <div class="col-12" id="map">
+              </div>
+                </div>
+              <div class="container">
+              
+        
+              <div class="row">
+                <div class="col-12" id="map">
+                </div>
+              </div>
+            </div>-->
+        
+            <h1 class="display-4 m-4">Trusted by professionals</h1>
+        
+            <p class="lead m-4">
+                Ensuring high quality outcomes is our goal.
+            </p>
+        
+        
+            <h1 class="display-4 m-4" id="OurWork">Examples of our work</h1>
+        
+            <p class="lead m-4">
+                Explore a few of our recent projects below.
+            </p>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                    <h1><i class="fas fa-binoculars d-flex justify-content-center"></i></h1>
+                  <h5 class="card-title">Mobile Application for Biodiversity Assessors NSW</h5>
+                  <p class="card-text">We developed a mobile collection application to collect, store, analyse and report on important biodiversity indicators. Biodiversity Assessors use the app to record information on a mobile device that was previously collected in a non digital format. The app runs complex queries to search, match PCTs and provide insights for the user. </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item font-weight-bold">Geojson Web API</li>
+                    <li class="list-group-item font-weight-bold">Python Framework</li>
+                    <li class="list-group-item font-weight-bold">Sqlite Database</li>
+                    <li class="list-group-item font-weight-bold">Full Text Search</li>
+                    <li class="list-group-item font-weight-bold">BAM Assessment Requirements NSW</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h1><i class="fas fa-cogs d-flex justify-content-center"></i></h1>
+                  <h5 class="card-title">Extract, Translate + Load Processes for Government Projects</h5>
+                  <p class="card-text">We have built in-depth ETL processes to automate geospatial tasks within complex server environments for numerous projects.</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item font-weight-bold">FME</li>
+                    <li class="list-group-item font-weight-bold">Python - ArcPy</li>
+                    <li class="list-group-item font-weight-bold">SQL Server</li>
+                    <li class="list-group-item font-weight-bold">ArcGIS Server</li>
+                    <li class="list-group-item font-weight-bold">Data Warehousing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h1><i class="fas fa-carrot d-flex justify-content-center"></i></h1>
+                  <h5 class="card-title">Geospatial Ecosystem for Wholesale and Home Delivery Business</h5>
+                  <p class="card-text">We developed a geospatial solution to increase efficiency, reduce mistakes and increase customer satisfaction for our client who opperates a fresh produce business within the Illawarra</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item font-weight-bold">FME Desktop</li>
+                    <li class="list-group-item font-weight-bold">Javascript</li>
+                    <li class="list-group-item font-weight-bold">QGIS</li>
+                    <li class="list-group-item font-weight-bold">Web APIs</li>
+                    <li class="list-group-item font-weight-bold">E-Commerce Platform</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+           
+        
+          </div>
+        </div>
+        <div id="contact">
+            <br>
+            <div class="d-flex justify-content-center">
+                <h3>Get in touch with our GIS professionals today</h3>
+                <br>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h1 class="display-4"><i class="fas fa-envelope"></i> hello@apstatial.com.au</h1>
+                <br>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h3 class="display-4"><i class="fas fa-phone"></i> 0423 676 646</h3>
+                <br>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p><i class="far fa-copyright"></i> AP Spatial </p>   
+                <br>
+            </div>
+        </div>  
+
+        <br>
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- D3 Library -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+
+
+<!-- D3 Code to make a map -->
+
+<script type="text/javascript">
+
+    var width = document.getElementById('map').clientWidth;
+    //var width = 980;
+    //var height = 1160;
+    //console.log(width)
+    //this allows us to collect the width of the div where the SVG will go.
+    var height = width / 3.236;//3.236;
+    //I like to use the golden rectangle ratio if they work for my charts.
+
+    margin = Math.min(width, height)/10
+
+    // Create SVG and group "g"
+    var svg = d3.select("#map")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g");
+
+    //Loading GeoJSON data
+    d3.json("static/geo/world110.json").then(function(data){ 
+
+            //console.log(data)
+            var countries = topojson.feature(data, data.objects.countries);
+
+            //console.log(countries)
+
+            var projection = d3.geoFoucaut() // pick projection here geoOrthographic geoBoggs geoCraig geoFoucaut
+                //.fitExtent([[20, 20],[960,600]], countries);
+                .fitExtent([[margin, margin],[width-margin, height - margin]], countries)
+                //.clipAngle(90);
+                //.center([0, 55.4])
+                //.rotate([150, 0])
+                //.parallels([50, 60])
+                //.scale(300) //use scale to zoom in and out
+                //.translate([width / 2, height / 2])
+
+            var pathGenerator = d3.geoPath()
+                .projection(projection)    
+
+            svg.selectAll("path")
+                .data(topojson.feature(data, data.objects.countries).features)
+                .enter().append("path")
+                .attr("d", pathGenerator)
+                .attr("class", "countries")
+                .style("fill", "#ffffff")
+                .on('mouseover', function(d){
+                    d3.select(this).classed("selected", true)
+                        .style("fill", function() {
+                           return "hsl(" + Math.random() * 360 + ",100%,75%)";
+                            })
+                        .transition()
+                            .duration(500)
+                            .ease(d3.easeElasticIn)
+                            .style("fill", "black");
+                })
+                
+            //create graticles
+            const graticule = d3.geoGraticule();
+            console.log(graticule.outline())
+
+            // Graticule lines (behind the land)
+            svg.selectAll(".graticule")
+                .data(graticule.lines())
+                .enter().append("path")
+                .attr("class", "graticule")
+                .attr("d", pathGenerator);
+
+   
+
+            let rotate = [0, 0];
+            let velocity = [0.05, 0];
+            let time = Date.now();
+            //console.log(time)
+            //Trigger Spinning Globe
+            spinning_globe()
+
+            // Spinning globe setup and function
+            
+            function spinning_globe(){
+
+                d3.timer(function() {
+                    // get current time
+                    var dt = Date.now() - time;
+                    //console.log("dt", dt)
+
+                    // get the new position from modified projection function
+                    projection.rotate([rotate[0] + velocity[0] * dt, rotate[1] + velocity[1] * dt]);
+                    //projection.rotate.rotate([0, 0]);
+                    //console.log(projection.rotate)
+                    // update layers position and redraw
+                    svg.selectAll("path.graticule").attr("d", pathGenerator);
+                    svg.selectAll("path.countries").attr("d", pathGenerator);
+                    
+                    //svg.selectAll("path.graticule-outline").attr("d", pathGenerator);
+
+                })};
+
+
+
+            });
+            
+
+                //We will build a basic function to handle window resizing.
+            function resize() {
+                width = document.getElementById('map').clientWidth;
+                height = width / 3.236;
+                //console.log("width: ", width)
+                //console.log("height: ", height)
+                d3.select('#map svg')
+                .attr('width', width)
+                .attr('height', height);
+            }   
+            
+            //Call our resize function if the window size is changed.
+            window.onresize = resize;
+</script>
+
+
+</html>
